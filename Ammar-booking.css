@@ -20,7 +20,7 @@ label {
   font-size: 24px;
   line-height: 150%;
   margin: auto;
-  width: 35%;
+  width: 40%;
   border: 3px solid #1d3557;
   padding: 10px;
 }
@@ -33,26 +33,12 @@ label {
 }
 
 .book .button{
-  color: #ffffff;
-  background-color: #80b6d8;
+  color: #f1faee;
+  background-color: #457b9d;
   border: none;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 32px;
-  border-radius: 12px;
-  border: 2px outset;
-}
-
-.booking-inputs{
-  width: 1px;
-}
-.names {
-  width: 49%;
-  float: left;
-}
-
-#wrapper {
-  overflow: hidden;
 }

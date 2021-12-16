@@ -16,34 +16,21 @@
     <div class=book>
       <form action="payment.html" method="get">
         <h3 class="book-title">Booking section</h3>
-        <!-- the first name and last name field is required and should accept a text that is no longer than 747 letters which 
-        is the length of the longest name in the world -->
-        <div id="wrapper">
-          <div class='names'>
-            <label for="name">First name</label>
-            <input type="text" required maxlength="747" placeholder="First Name" >
-          </div>
-          <div class='names'>
-            <label for="name">Last name</label>
-            <input type="text" required maxlength="747" placeholder="Last Name">
-          </div>
-          <br>
-        </div>
-        <!-- Enter your Email-->
-        <label for="adults-count">Enter your email</label>
-        <input type="email" placeholder="example@example.com" >
-        <br>
+        <!-- the full name field is required and should accept a text that is no longer than 747 letters which is the length of the longest name in the world -->
+        <label for="name">Full name</label>
+        <input type="text" required maxlength="747" placeholder="First then Last name"/>
+        <br />
         <!-- the number of adults field is required and should accept a number between 1 and 10 -->
         <label for="adults-count">Number of adults</label>
-        <input type="number" min="1" max="10"  required placeholder="1"> 
-        <br>
+        <input type="number" min="1" max="10" required placeholder="1"/>
+        <br />
         <!-- the number of children field is required and should accept a number between 0 and 10 -->
         <label for="children-count">Number of children</label>
-        <input type="number" min="0" max="10" required placeholder="0">
-        <br>
+        <input type="number" min="0" max="10" required placeholder="0"/>
+        <br />
         <!-- the date field is required and should accept a date within the year of 2022 -->
         <label for="date">Date</label>
-        <input type="date" min="2022-01-01" max="2022-12-31" required style="width: 300px;">
+        <input type="date" min="2022-01-01" max="2022-12-31" required/>
         <br>
         <!-- the payment option drop down is required and should accept any of the available options -->
         <label for="payment">Method of payment</label>
@@ -58,7 +45,7 @@
         </select>
         <br>
         <!-- the submit button, only press-abale when all the previous fields are filled -->
-        <label class="last" for="submit">By clicking the submit button you agree to the terms and condition of ToonsPark</label>
+        <label class="last" for="submit">confirm the above information then press Book</label>
         <br>
         <input class="button" type="submit" value="Book" />
       </form>
