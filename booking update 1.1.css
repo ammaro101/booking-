@@ -1,0 +1,101 @@
+/* the styling of the booking page (to be merged wit hthe main styling sheet */
+
+
+/* the body section in the book page */
+body{
+  background-color: #457B9D;
+}
+/* the division that contains the booking form */
+.book{
+  /* margin-bottom: 60px; */
+  /* display: block; */
+  background-color: #f1faee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  min-height: 10vh;
+  box-sizing: border-box;
+  font-size: 24px;
+  line-height: 200%;
+  margin: auto;
+  width: 400px;
+  height: auto;
+  
+  border: 3px solid #1d3557;
+  padding: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+/* the input tags in the booking form */
+.book input{
+  font: Helvetica, sans-serif, Arial;
+  width: 70%;
+  font-size: medium;
+  text-align: left;
+  
+}
+/* the first and last name section in the beginning of the booking form */
+.names {
+  width: 49%;
+  float: left;
+}
+/* the division which contains the first and last name divs within the booking form */
+#wrapper {
+  overflow: hidden;
+}
+/* the numeric input tags within the booking form */
+.book .num{
+  width: 60px;
+  /* display:inline-block; */
+  /* vertical-align:middle; */
+  float: right;
+  margin-right: 300px;
+  margin-top: 10px;
+  padding: 2px;
+  margin: 7px;
+  text-align: center;
+}
+/* the date tag within the booking form */
+.date{
+  width: 50px;
+  /* display:inline-block; */
+  /* vertical-align:middle; */
+  float: right;
+  margin-right: 50px;
+  margin-top: 10px;
+  padding: 2px;
+  margin: 7px;
+}
+/* the confirmation message in the end of the booking form */
+.book .last {
+  font-size: 80%;
+}
+/* the button within the booking form */
+.book .button{
+  color: #ffffff;
+  background-color: #80b6d8;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  border-radius: 12px;
+  border: 2px outset;
+}
+
+.button:hover {
+  padding-right: 25px;
+}
+
+.button:hover {
+  opacity: 1;
+  right: 0;
+}
+
+
+/* ??? */
+.booking-inputs{
+  width: 1px;
+}

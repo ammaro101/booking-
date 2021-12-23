@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- stylesheet for the booking page (to be merged with the main stylesheet) -->
+  <link rel="stylesheet" href="booking update 1.1.css">
+
+  <title>booking</title>
+</head>
+<body>
+  <header></header>
+  <!-- booking section -->
+  <main>
+    <div class=book>
+      <form action="payment.html" method="get">
+        <h3 class="book-title">Booking section</h3>
+        <!-- the first name and last name field is required and it's maximised to the longest first name and last name.-->
+        <div id="wrapper">
+          <div class='names'>
+            <label for="name">First name</label>
+            <input type="text" required maxlength="747" placeholder="First Name" >
+          </div>
+          <div class='names'>
+            <label for="name">Last name</label>
+            <input type="text" required maxlength="666" placeholder="Last Name">
+          </div>
+          <br>
+        </div>
+        <!-- Enter your Email-->
+        <label for="email">Enter your email</label>
+        <input type="email" placeholder="example@example.com" >
+        <br>
+        <!-- the number of adults field is required and should accept a number between 1 and 10 -->
+        <label for="adults-count">Number of adults</label>
+        <input class="num" type="number" min="1" max="10"  required placeholder="1"> 
+        <br>
+        <!-- the number of children field is required and should accept a number between 0 and 10 -->
+        <label for="children-count">Number of children</label>
+        <input class="num" type="number" min="0" max="10" required placeholder="0">
+        <br>
+        <!-- the date field is required and should accept a date within the year of 2022 -->
+        <label for="date">Date</label>
+        <input class="date" type="date" min="2022-01-01" max="2022-12-31" required>
+        <br>
+        <!-- the payment option drop down is required and should accept any of the available options -->
+        <label for="payment">Method of payment</label>
+        <br>
+        <select name="select" id="selector" required>
+          <option selected disabled value="">Select your method of payment</option>
+          <option value="MasterCard">Master Card</option>
+          <option value="Visa">Visa</option>
+          <option value="PayPal">Paypal</option>
+          <option value="AmericanExpress">American Express</option>
+          <option value="UnionPay">Union Pay</option>
+        </select>
+        <br>
+        <!-- the submit button, only press-abale when all the previous fields are filled -->
+        <label class="last" for="submit">By clicking the submit button you agree to the terms and condition of ToonsPark</label>
+        <br>
+        <input class="button" type="submit" value="Book" />
+      </form>
+    </div>
+    <!-- end of the booking section -->
+  </main>
+  <footer></footer>
+</body>
+</html>
